@@ -1,1 +1,5 @@
-git push -f origin master.
+echo "zyx" >> "ZYX"
+git add "ZYX"
+git commit -m 'Initial commit with contributors'
+git remote add origin2 https://yzcmf@bitbucket.org/yzcmf/zyx_project.git
+git push -f origin2 master.
